@@ -8,13 +8,13 @@
 
 lib/  
 
-       Category/
+  Category/
 
-       Bag.dart
+    Bag.dart
+    
+    Clothes.dart
 
-       Clothes.dart
-
-       Decorations.dart
+    Decorations.dart
 
 SelectDay.dart
 
