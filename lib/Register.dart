@@ -52,7 +52,7 @@ class _RegisterPageState extends State<RegisterPage> {
             const SizedBox(height: 12.0),
             TextField(
               controller: _idCardController,
-              decoration: InputDecoration(labelText: 'ID Card'),
+              decoration: InputDecoration(labelText: 'Creditcard number'),
             ),
             const SizedBox(height: 12.0),
             TextField(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/SelectDay.dart'; // Import SelectDay
+import 'package:flutter_application_1/Gucci_Bag.dart'; // Import SelectDay
 
 class BagPage extends StatefulWidget {
   const BagPage({Key? key}) : super(key: key);
@@ -50,7 +50,7 @@ class _BagPageState extends State<BagPage> {
                       // นำทางไปยังหน้า SelectDay.dart
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => SelectDay()),
+                        MaterialPageRoute(builder: (context) => GucciBagPage()),
                       );
                     } else {
                       // กรณีที่ไม่ใช่ Gucci สามารถเพิ่มการนำทางไปยังหน้าอื่น ๆ ตามต้องการได้
